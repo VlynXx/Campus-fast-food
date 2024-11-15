@@ -31,21 +31,18 @@ class SignUpActivity : ComponentActivity() {
 @Composable
 fun SignUpScreen() {
     Box(modifier = Modifier.fillMaxSize()) {
-        // Background Layer
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(200.dp)
-                .background(Color(0xFFF5CB58)) // Warna kuning bagian atas
+                .background(Color(0xFFF5CB58))
         ) {}
 
-        // Foreground Content
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(top = 50.dp)
         ) {
-            // Header
             Text(
                 text = "New Account",
                 fontSize = 24.sp,
@@ -58,7 +55,6 @@ fun SignUpScreen() {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Form Card
             Card(
                 shape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp),
                 colors = CardDefaults.cardColors(containerColor = Color(0xFFF5F5F5)),

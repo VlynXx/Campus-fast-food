@@ -31,7 +31,6 @@ class LoginActivity : ComponentActivity() {
 @Composable
 fun LoginScreen() {
     Box(modifier = Modifier.fillMaxSize()) {
-        // Background Layer (Mimicking Yellow Background)
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -39,13 +38,11 @@ fun LoginScreen() {
                 .background(Color(0xFFF5CB58)) // Warna kuning bagian atas
         ) {}
 
-        // Foreground Content
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(top = 50.dp)
         ) {
-            // Header
             Text(
                 text = "Log In",
                 fontSize = 24.sp,
@@ -57,8 +54,7 @@ fun LoginScreen() {
             )
 
             Spacer(modifier = Modifier.height(16.dp))
-
-            // Form Card
+            
             Card(
                 shape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp),
                 colors = CardDefaults.cardColors(containerColor = Color(0xFFF5F5F5)),
@@ -99,7 +95,7 @@ fun LoginScreen() {
                             focusedIndicatorColor = Color.Transparent,
                             unfocusedIndicatorColor = Color.Transparent
                         ),
-                        shape = RoundedCornerShape(20.dp), // Membulatkan sudut
+                        shape = RoundedCornerShape(20.dp),
                         modifier = Modifier
                             .fillMaxWidth()
                             .padding(vertical = 8.dp)

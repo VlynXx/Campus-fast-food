@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106178542586",
+    "project_id": "login-campus-food",
+    "storage_bucket": "login-campus-food.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106178542586:android:ccb266c4e98460012f0243",
+        "android_client_info": {
+          "package_name": "com.example.campussfastfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABzJy5HD1SFtSRv4rGqCSkiZ6Sf5lyFps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
